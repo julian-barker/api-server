@@ -6,7 +6,7 @@
 
 ### Problem Domain  
 
-This repo is an exercise in creating and deploying an Express server and connecting to a SQL database. It uses a local and deployed instance of a postgres database for development and production as well as a sqlite in-memory database for testing. It implements all CRUD operations as router middleware.
+This repo builds on the last lab's API server by using a model interface to simplify the interaction between client and server and reuse it across multiple models.
 
 ### Links and Resources
 
@@ -22,7 +22,7 @@ This repo is an exercise in creating and deploying an Express server and connect
 
 #### How to initialize/run your application (where applicable)
 
-- `npx tsc --watch & nodemon -q dist/index.js`
+- `npm run dev` (alias for `npx tsc --watch & nodemon -q -w dist dist/index.js`)
 
 #### Features / Routes
 
@@ -39,6 +39,6 @@ This repo is an exercise in creating and deploying an Express server and connect
 
 #### UML
 
-![UML](./assets/401_lab_3_UML.png)
+![UML](./assets/401_lab_4_UML.png)
 
 ### Attributions
