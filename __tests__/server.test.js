@@ -67,6 +67,8 @@ describe('APIServer', () => {
 
     console.log(response);
 
+    
+
     expect(response.status).toEqual(200)
     expect(response.body).toEqual(expect.objectContaining({
       ...clothingItems[1],
